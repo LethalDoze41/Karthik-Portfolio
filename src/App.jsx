@@ -325,7 +325,7 @@ const App = () => {
                 <div className="cert-details">
                   <div className="cert-name">Project Management Professional</div>
                   <div className="cert-issuer">PMI - 2024</div>
-                  <a href="#" className="cert-verify">Verify Credential →</a>
+                  <a href="https://www.credly.com/badges/5002265b-fbb3-4385-93ee-341d8330317e/public_url" className="cert-verify">Verify Credential →</a>
                 </div>
               </div>
               <div className="certification-card">
@@ -333,7 +333,7 @@ const App = () => {
                 <div className="cert-details">
                   <div className="cert-name">Certified Scrum Master</div>
                   <div className="cert-issuer">International Scrum Institute - 2023</div>
-                  <a href="#" className="cert-verify">Verify Credential →</a>
+                  <a href="https://www.scrum-institute.org/badges/97053536676801" className="cert-verify">Verify Credential →</a>
                 </div>
               </div>
             </div>
@@ -360,7 +360,7 @@ const App = () => {
                 <span className="contact-icon">✉️</span>
                 <span className="contact-text">khegde2013@gmail.com</span>
               </a>
-              <a href="https://linkedin.com/in/karthikhegde" target="_blank" rel="noopener noreferrer" className="contact-item">
+              <a href="https://www.linkedin.com/in/karthikh118/" target="_blank" rel="noopener noreferrer" className="contact-item">
                 <span className="contact-icon">💼</span>
                 <span className="contact-text">LinkedIn Profile</span>
               </a>
