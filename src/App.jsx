@@ -325,7 +325,11 @@ const App = () => {
                 <div className="cert-details">
                   <div className="cert-name">Project Management Professional</div>
                   <div className="cert-issuer">PMI - 2024</div>
-                  <a href="https://www.credly.com/badges/5002265b-fbb3-4385-93ee-341d8330317e/public_url" className="cert-verify">Verify Credential →</a>
+                  <a href="https://www.credly.com/badges/5002265b-fbb3-4385-93ee-341d8330317e/public_url" target="_blank" 
+      rel="noopener noreferrer" 
+      className="cert-verify">
+     Verify Credential →
+   </a>
                 </div>
               </div>
               <div className="certification-card">
@@ -333,7 +337,11 @@ const App = () => {
                 <div className="cert-details">
                   <div className="cert-name">Certified Scrum Master</div>
                   <div className="cert-issuer">International Scrum Institute - 2023</div>
-                  <a href="https://www.scrum-institute.org/badges/97053536676801" className="cert-verify">Verify Credential →</a>
+                  <a href="https://www.scrum-institute.org/badges/97053536676801" target="_blank" 
+      rel="noopener noreferrer" 
+      className="cert-verify">
+     Verify Credential →
+   </a>
                 </div>
               </div>
             </div>
@@ -365,9 +373,11 @@ const App = () => {
                 <span className="contact-text">LinkedIn Profile</span>
               </a>
             </div>
-            <button className="btn-download">
-              Download Resume
-            </button>
+            <button 
+     className="btn-download"
+     onClick={() => window.open('/Karthik_Hegde_Resume.pdf', '_blank')}>
+     Download Resume
+   </button>
           </div>
         </div>
       </section>
