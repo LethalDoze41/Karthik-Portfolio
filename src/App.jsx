@@ -38,9 +38,21 @@ const App = () => {
   const experiences = [
     {
       title: "Project Manager",
+      company: "Drivemode",
+      location: "Mountain View, CA",
+      period: "Sep 2025 – Present",
+      highlights: [
+        "Leading strategic program initiatives and cross-functional collaboration",
+        "Managing complex project timelines and stakeholder relationships",
+        "Driving execution excellence and measurable business outcomes"
+      ],
+      tech: ["Project Management", "Agile", "JIRA", "Program Management"]
+    },
+    {
+      title: "Project Manager",
       company: "eBay",
       location: "San Jose, CA",
-      period: "Mar 2025 – Present",
+      period: "Mar 2024 – Aug 2025",
       highlights: [
         "Leading AI implementation projects driving operational efficiency",
         "Managing cross-functional teams across product and engineering",
@@ -52,7 +64,7 @@ const App = () => {
       title: "Project Manager",
       company: "Apple",
       location: "Cupertino, CA",
-      period: "Jul 2022 – Feb 2025",
+      period: "Jul 2022 – Feb 2024",
       highlights: [
         "Spearheaded global digital transformation increasing sales efficiency by 70%",
         "Implemented AI forecast engine achieving +/-2% variance",
@@ -75,7 +87,7 @@ const App = () => {
     {
       title: "Managing Partner",
       company: "Viridi Web Retailing LLP",
-      location: "Bengaluru, India",
+      location: "Bengaluru, Karnataka, India",
       period: "Apr 2015 – Dec 2017",
       highlights: [
         "Co-founded and managed e-commerce retail operations",
@@ -87,7 +99,7 @@ const App = () => {
     {
       title: "Senior Business Analyst",
       company: "HSBC",
-      location: "Bengaluru, India",
+      location: "Bengaluru, Karnataka, India",
       period: "Mar 2014 – Mar 2015",
       highlights: [
         "Analyzed business processes and defined requirements for banking systems",
@@ -97,21 +109,21 @@ const App = () => {
       tech: ["Business Analysis", "Banking Systems", "Documentation", "Requirements"]
     },
     {
-      title: "Business Analyst/Scrum Master",
+      title: "Business Analyst",
       company: "Amazon",
-      location: "Bengaluru, India",
+      location: "Bengaluru, Karnataka, India",
       period: "Jan 2011 – Mar 2014",
       highlights: [
         "Analyzed operational data to identify process improvement opportunities",
         "Supported product and technology teams with business requirements",
         "Performed gap analysis and impact assessments for new initiatives"
       ],
-      tech: ["Business Analysis", "Data Analysis", "E-commerce", "Operations",]
+      tech: ["Business Analysis", "Data Analysis", "E-commerce", "Operations"]
     },
     {
-      title: "Front-End Developer",
-      company: "Accenture",
-      location: "Bengaluru, India",
+      title: "Frontend Developer",
+      company: "Accenture in India",
+      location: "Bengaluru, Karnataka, India",
       period: "Mar 2010 – Dec 2010",
       highlights: [
         "Supported consulting engagements across technology and operations",
